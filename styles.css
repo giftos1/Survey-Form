@@ -1,0 +1,64 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    color: #292323;
+    font-size: 1.5em;
+    background-image: url("vegetation.jpg");
+}
+
+#title, #description {
+    margin: 1em auto;
+    text-align: center;
+}
+
+.form-group {
+    padding: 20px;
+    margin-top:-10px;
+}
+
+label {
+    display: block;
+    margin: 1rem 0;
+}
+
+input, select {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 1rem;
+}
+
+input {
+    margin-top: 2.5px;
+}
+
+.radio-input, .checkbox-input {
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+}
+
+#comments {
+    width:100%;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+#name, #email, #number, #dropdown {
+    height:40px;
+}
+input[type="submit"] {
+    height: 3em;
+    width: 100%;
+    background-color: #bdbdc5;
+    border: 1px solid rgb(105, 104, 104);
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 500px;
+    margin: auto;
+    background-color: rgba(128, 192, 211, 0.4);
+}
+
