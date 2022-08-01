@@ -1,15 +1,13 @@
 body {
-    width: 100%;
+    max-width: 500px;
     height: 100vh;
-    margin: auto;
+    margin: 0 auto;
     color: #292323;
     font-size: 1.5em;
     background-image: url("vegetation.jpg");
 }
 
 #title, #description {
-    display: block;
-    margin: 1em auto;
     text-align: center;
 }
 
@@ -58,7 +56,7 @@ input[type="submit"] {
 }
 
 .container {
-    width: 483px;
+    width: 470px;
     margin: auto;
     background-color: rgba(128, 192, 211, 0.4);
 }
