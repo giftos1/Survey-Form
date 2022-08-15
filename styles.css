@@ -1,10 +1,7 @@
-body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    color: #292323;
-    font-size: 1.5em;
-    background-image: url("vegetation.jpg");
+.header {
+    width:500px;
+    margin: auto;
+
 }
 
 #title, #description {
@@ -15,6 +12,21 @@ body {
 
 #description {
     margin-bottom: 3em;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    color: #292323;
+    font-size: 1.5em;
+    background-image: url("vegetation.jpg");
+}
+
+#survey-form{
+    width: 500px;
+    margin: auto;
+    background-color: rgba(128, 192, 211, 0.4);
 }
 
 .form-group {
@@ -44,31 +56,21 @@ input {
     display: inline-block;
 }
 
+#name, #email, #number, #dropdown {
+    height:40px;
+}
+
 #comments {
     width:100%;
     box-sizing: border-box;
     font-size: 1rem;
 }
 
-#name, #email, #number, #dropdown {
-    height:40px;
-}
 input[type="submit"] {
     height: 3em;
     width: 100%;
-    background-color: #bdbdc5;
-    border: 1px solid rgb(105, 104, 104);
+    background-color: #86c5f8;
+    border: 1px solid #86c5f8;
     margin-bottom: 20px;
+    border-radius: 1.5em;
 }
-
-.container {
-    width:500px;
-    margin: auto;
-
-}
-#survey-form{
-    width: 500px;
-    margin: auto;
-    background-color: rgba(128, 192, 211, 0.4);
-}
-

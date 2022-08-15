@@ -8,15 +8,19 @@
     <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
-    <div class="container">
+    <!-- header section -->
+    <div class="header">
         <h1 id="title">
             Giftos Survey Form
         </h1>
         <p id="description">
             Please fill in your information down below
         </p>
+    </div>
+    <!-- container for the survey-form -->
+    <div class="container">
         <form id="survey-form">
-        
+            <!-- divide form into different form groups -->
             <div class="form-group">
                 <label for="name" id="name-label">Name <input type="text" id="name" placeholder="Enter your name" required></label>
                 <label for="email" id="email-label">Email <input type="email" id="email" placeholder="Enter your email" required></label>
@@ -54,18 +58,18 @@
                 <label for="forum"><input type="checkbox" class="checkbox-input" value="forum"> Forum</label> 
                 <label for="additional-courses"><input type="checkbox" class="checkbox-input" value="additional-courses"> Additional Courses</label> 
             </div>
-
+            <!-- comments section -->
             <div class="form-group">
                 <label for="comments">Any comments or suggestions?
                     <textarea name="comments" id="comments" cols="63" rows="10" placeholder="Enter your comment here..."></textarea>
                 </label>
             </div>
-
+            <!-- submit section -->
             <div class="form-group" id="submit">
                 <input type="submit" value="Submit">
             </div>
+
         </form>
-    </div>
-    
+    </div> 
 </body>
 </html>
