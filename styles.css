@@ -20,14 +20,14 @@ body {
     margin: 0;
     color: #292323;
     font-size: 1.5em;
-    background-image: url("vegetation - Copy.jpg");
+    background-image: url("wall.jpg");
     background-size: cover;
 }
 
 #survey-form{
     width: 500px;
     margin: auto;
-    background-color: rgba(95, 183, 241, 0.4);
+    background-color: rgba(219, 223, 224, 0.466);
 }
 
 .form-group {
@@ -70,8 +70,13 @@ input {
 input[type="submit"] {
     height: 3em;
     width: 100%;
-    background-color: #86c5f8;
-    border: 1px solid #86c5f8;
+    background-color: #cbcecf;
+    /* background-color: #d8dbdd; */
+    border: 1px solid #515253;
     margin-bottom: 20px;
     border-radius: 1.5em;
+}
+
+input[type="submit"]:hover {
+    background-color: #e2e2e2;
 }
