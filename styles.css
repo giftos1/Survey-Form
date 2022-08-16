@@ -21,6 +21,7 @@ body {
     color: #292323;
     font-size: 1.5em;
     background-image: url("vegetation.jpg");
+    background-size: cover;
 }
 
 #survey-form{
