@@ -1,3 +1,6 @@
+*{
+    background-image:url("wall.jpg");
+}
 .header {
     width:500px;
     margin: auto;
@@ -20,8 +23,8 @@ body {
     margin: 0;
     color: #292323;
     font-size: 1.5em;
-    background-image: url("wall.jpg");
-    background-size: cover;
+    /* background-image: url("wall.jpg");
+    background-size: cover; */
 }
 
 #survey-form{
@@ -71,7 +74,6 @@ input[type="submit"] {
     height: 3em;
     width: 100%;
     background-color: #cbcecf;
-    /* background-color: #d8dbdd; */
     border: 1px solid #515253;
     margin-bottom: 20px;
     border-radius: 1.5em;
